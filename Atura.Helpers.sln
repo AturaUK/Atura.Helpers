@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atura.Helpers.Extensions", "src\Atura.Helpers.Extensions\Atura.Helpers.Extensions.csproj", "{94BB39CF-AA59-496C-8A0D-D2B8F760DDD7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{50514FB3-8B78-4A00-874E-8A8FECEDF00E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Atura.Helpers.Guard", "src\Atura.Helpers.Guard\Atura.Helpers.Guard.csproj", "{DF6B611A-B390-4CF8-84C4-041C9DDF0EA0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{2647E05A-18C2-44B6-8101-EF3D1C83C456}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{DEA13D4F-4D94-4910-8274-097654C5D5B7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Samples", "samples\Samples.csproj", "{87954214-40DA-4AE1-8907-787EAA09FC5A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Atura.Helpers.Tests", "tests\Atura.Helpers.Tests\Atura.Helpers.Tests.csproj", "{681094AB-64E5-4661-A3C5-203437DD3767}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94BB39CF-AA59-496C-8A0D-D2B8F760DDD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94BB39CF-AA59-496C-8A0D-D2B8F760DDD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94BB39CF-AA59-496C-8A0D-D2B8F760DDD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94BB39CF-AA59-496C-8A0D-D2B8F760DDD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF6B611A-B390-4CF8-84C4-041C9DDF0EA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF6B611A-B390-4CF8-84C4-041C9DDF0EA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF6B611A-B390-4CF8-84C4-041C9DDF0EA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF6B611A-B390-4CF8-84C4-041C9DDF0EA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87954214-40DA-4AE1-8907-787EAA09FC5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87954214-40DA-4AE1-8907-787EAA09FC5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87954214-40DA-4AE1-8907-787EAA09FC5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87954214-40DA-4AE1-8907-787EAA09FC5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{681094AB-64E5-4661-A3C5-203437DD3767}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{681094AB-64E5-4661-A3C5-203437DD3767}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{681094AB-64E5-4661-A3C5-203437DD3767}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{681094AB-64E5-4661-A3C5-203437DD3767}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{94BB39CF-AA59-496C-8A0D-D2B8F760DDD7} = {50514FB3-8B78-4A00-874E-8A8FECEDF00E}
+		{DF6B611A-B390-4CF8-84C4-041C9DDF0EA0} = {50514FB3-8B78-4A00-874E-8A8FECEDF00E}
+		{87954214-40DA-4AE1-8907-787EAA09FC5A} = {DEA13D4F-4D94-4910-8274-097654C5D5B7}
+		{681094AB-64E5-4661-A3C5-203437DD3767} = {2647E05A-18C2-44B6-8101-EF3D1C83C456}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {25836632-1EFE-4BCC-BD34-D550B7D078CE}
+	EndGlobalSection
+EndGlobal
